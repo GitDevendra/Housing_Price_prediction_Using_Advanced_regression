@@ -10,9 +10,9 @@ def load_data(filename):
     return pd.read_csv(filename)
 
 # File paths
-train_file = "/Users/devendrasingh/PROJECTS/house-prices-advanced-regression-techniques/train.csv"
-test_file = "/Users/devendrasingh/PROJECTS/house-prices-advanced-regression-techniques/test.csv"
-submission_file = "/Users/devendrasingh/PROJECTS/house-prices-advanced-regression-techniques/submission.csv"
+train_file = "train.csv"
+test_file = "test.csv"
+submission_file = "submission.csv"
 
 # Load datasets
 df_train = load_data(train_file)
